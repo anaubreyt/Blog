@@ -1,5 +1,47 @@
 * {
 	margin: 0;
 	padding: 0;
-}
-
+  }
+  
+  li {
+	list-style-type: decimal;
+  }
+  
+  .postList {
+	display: flex;
+	flex-direction: row;
+	
+	align-items: center;
+	border: 1px solid #ddd;
+	padding: 10px;
+	margin-bottom: 10px;
+  }
+  
+  .postList p,
+  .postList h3 {
+	font-size: 18px;
+	margin-right: 7px;
+  }
+  
+  .truncate-text {
+	display: flex;
+	flex-direction: row;
+	overflow: hidden;
+  }
+  
+  .truncate-text p {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+  }
+  
+  .truncate-text h3 {
+	white-space: nowrap;
+  }
+  
+  .readMore {
+	text-decoration: none;
+	font-size: 14px;
+	color: #aaa5a5;
+	margin-left: auto;
+  }
